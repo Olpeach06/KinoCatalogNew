@@ -56,7 +56,7 @@ namespace KinoCatalog.Models
         public int StudioID { get; set; }
 
         [ForeignKey(nameof(StudioID))]
-        [Display(Name = "Продакшн-студио")]
+        [Display(Name = "Продакшн-студия")]
         public ProductionStudio? Studio { get; set; }
     }
 }
