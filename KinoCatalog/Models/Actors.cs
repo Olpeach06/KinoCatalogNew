@@ -9,10 +9,12 @@ namespace KinoCatalog.Models
 
         [Required]
         [StringLength(100)]
+        [Display(Name = "Имя")]
         public string? FirstName { get; set; }
 
         [Required]
         [StringLength(100)]
+        [Display(Name = "Фамилия")]
         public string? LastName { get; set; }
     }
 }

@@ -9,6 +9,7 @@ namespace KinoCatalog.Models
 
         [Required]
         [StringLength(100)]
+        [Display(Name = "Название")]
         public string? Name { get; set; }
     }
 }
