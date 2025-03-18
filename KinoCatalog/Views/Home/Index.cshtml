@@ -4,5 +4,18 @@
 
 <div class="text-center">
     <h1 class="display-4">Добро пожаловать!</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <img src="@Url.Content("~/images/kino2.webp")" alt="Кинотеатр" style="width: 300px; border-radius: 10px;" />
+    <img src="@Url.Content("~/images/kinoteatr.webp")" alt="Кинотеатр" style="width: 400px; border-radius: 10px;" />
+    <img src="@Url.Content("~/images/kino3.webp")" alt="Кинотеатр" style="width: 380px; border-radius: 10px;" />
+
+
+
+    <!-- Кнопки для перехода на разные страницы -->
+    <div style="margin-top: 30px;">
+        <a class="btn" asp-controller="Films" asp-action="Index" style="background-color: #6D2932; border: 2px solid burlywood; color: burlywood;">Фильмы</a>
+        <a class="btn" asp-controller="Actors" asp-action="Index" style="background-color: #6D2932; border: 2px solid burlywood; color: burlywood;">Актеры</a>
+        <a class="btn" asp-controller="Countries" asp-action="Index" style="background-color: #6D2932; border: 2px solid burlywood; color: burlywood;">Страна</a>
+        <a class="btn" asp-controller="Genres" asp-action="Index" style="background-color: #6D2932; border: 2px solid burlywood; color: burlywood;">Жанры</a>
+        <a class="btn" asp-controller="ProductionStudios" asp-action="Index" style="background-color: #6D2932; border: 2px solid burlywood; color: burlywood;">Студия</a>
+    </div>
 </div>
